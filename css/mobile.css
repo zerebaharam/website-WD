@@ -1,0 +1,240 @@
+
+@media (max-width: 1200px){
+    .main_block .container{
+        width: 900px;
+    }
+
+    .main_block .container .info{
+        width: 900px;
+    }
+
+    .main_block .container .info article{
+        width: 470px;
+    }
+
+    .project .container{
+        width: 90%;
+    }
+    .skills .container{
+        width: 1000px;
+    }
+    .skills .container section img{
+        width: 500px;
+    }
+
+    .how_i_work .container{
+        width: 95%;
+    }
+
+    .portfolio .container{
+        width: 1000px;
+    }
+
+    .portfolio .container nav{
+        width: 333px;
+    }
+
+    .cooperation .container{
+        width: 95%;
+    }
+    .cooperation .container img{
+        width: 200px;
+    }
+
+    footer .container{
+        width: 95%;
+    }
+}
+
+
+/* @media (max-width: 1070px){
+
+} */
+
+
+@media (max-width: 1000px){
+    .project .container{
+        flex-wrap: wrap;
+    }
+    .project .container img{
+        width: 220px;
+        margin-bottom: 40px;
+    }
+
+    .skills .container{
+        width: 95%;
+    }
+
+    .skills .container section article{
+        width: 47%;
+    }
+
+    .skills .container section img{
+        width: 47%;
+    }
+
+    .portfolio .container{
+        width: 95%;
+    }
+
+    .portfolio .container nav{
+        width: 50%;
+    }
+
+  
+}
+
+@media (max-width: 900px){
+
+    .main_block{
+        height: auto;
+    }
+
+    .main_block .container header{
+        margin-bottom: 190px;
+    }
+
+    .main_block .container header .sp{
+        display: flex;
+        width: 40px;
+        height: 20px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .main_block .container header .sp nav{
+        width: 100%;
+        height: 4px;
+        background: #065090;
+        border-radius: 30px;
+    }
+
+    .main_block .container{
+        width: 90%;
+    }
+
+    .main_block .container header menu{
+        display: none;
+    }
+
+    .main_block .container .info{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .main_block .container .info img{
+        width: 80%;
+    }
+
+    .main_block .container .info article h1{
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    .main_block .container .info article{
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .about_me{
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+
+    .about_me .container{
+        width: 90%;
+    }
+
+    .project{
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+
+    .project .container{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .project .container img{
+        margin-bottom: 60px;
+    }
+
+    .project .container li:last-child img{
+        margin-bottom: 0;
+    }
+
+    .skills .container section{
+        flex-direction: column;
+    }
+
+    .skills .container{
+        width: 90%;
+    }
+
+    .skills .container section article{
+        width: 100%;
+    }
+
+    .skills .container section img{
+        width: 100%;
+    }
+
+    .skills .container section article .skills_level .skill .lvl{
+        height: 6px;
+    }
+
+    .how_i_work .container p{
+        width: 100%;
+    }
+
+    .portfolio .container{
+        width: 100%;
+    }
+
+    .portfolio .container nav{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 250px;
+    }
+    .cooperation{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .cooperation .container section{
+        flex-direction: column;
+    }
+
+    .cooperation .container section img{
+        width: 60%;
+    }
+
+    .form_block .container{
+        width: 90%;
+    }
+    .form_block .container form div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .form_block .container form div:nth-child(1) input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .container aside:nth-child(2){
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    footer .container aside:nth-child(1){
+        text-align: center;
+    }
+
+}
